@@ -1,0 +1,20 @@
+name: "KERTest"
+ip: "192.168.11.208"
+port: 3035
+bufferSize: 1024
+time: #emplacement des éléments dans la trame reçue
+  day: 0
+  month: 1
+  year: 2
+  hour: 3
+  minute: 4
+  seconds: 5
+data:
+  Tid: 6 #Tirant d'air du radar en mm
+  sigma: 7 #Ecart type du radar en mm
+fixed:
+  zh2f: 296.8 #Distance en cm du zero hydro au repere F
+  f2zr: 0.2 #Distance en cm du repere F au zero radar
+template_mail_auto:
+  subject: "NIVMER KERGUELEN Test"
+  header: "KERTest SZIO01 FMEE" 
